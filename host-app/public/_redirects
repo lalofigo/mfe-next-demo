@@ -1,0 +1,15 @@
+# Redirigir rutas de albums-mfe
+/albums/*    https://albums-mfe.netlify.app/:splat   200
+/albums-static/*    https://albums-mfe.netlify.app/albums-static/:splat   200
+
+# Redirigir rutas de artists-mfe
+/artists/*   https://artists-mfe.netlify.app/:splat 200
+/artists-static/*    https://artists-mfe.netlify.app/artists-static/:splat   200
+
+
+# Redirigir rutas de genres-mfe
+/genres/*    https://genres-mfe.netlify.app/:splat   200
+/genres-static/*    https://genres-mfe.netlify.app/genres-static/:splat   200
+
+# Redirigir todas las demás rutas al host
+/*    /index.html   200
